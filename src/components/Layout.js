@@ -10,19 +10,19 @@ import { injectGlobal } from 'emotion'
 
 injectGlobal`
 :root {
---color-base: #E6E3E1 ;
---color-secondary: #100B00 ;
---color-tertiary: #223843 ;
---color-highlight: #FE5F55 ;
---color-accent: #FBF2F0 ;
+--color-base: #D7DADB ;
+--color-secondary: #2C3E50 ;
+--color-tertiary: #2C3E50 ;
+--color-highlight: #FC4349 ;
+--color-accent: #FFFFFF ;
 }
 @media (prefers-color-scheme: dark) {
 :root {
---color-base: #100B00;
---color-secondary: #E6E3E1;
+--color-base: #2C3E50;
+--color-secondary: #D7DADB;
 --color-tertiary: #F4DAD3;
---color-highlight: #FE5F55;
---color-accent: #FCFCFC; 
+--color-highlight: #FC4349;
+--color-accent: #FCFCFC;
  }
 }
 

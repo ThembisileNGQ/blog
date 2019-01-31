@@ -5,7 +5,7 @@ module.exports = {
   siteDescription:
     'Online portfolio for content creator Lutando Ngqakaza',
   siteUrl: 'https://lutando.se', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
-  author: 'Matthias Jordan', // Author for RSS author segment and SEO schema
+  author: 'Lutando Ngqakaza', // Author for RSS author segment and SEO schema
   authorUrl: 'https://lutando.se', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@LutandoNgqakaza', // Change for Twitter Cards
   shortTitle: 'IAM', // Used for App manifest e.g. Mobile Home Screen

@@ -109,7 +109,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = 'I Am Lutando'
+          ret.generator = 'Lutando Ngqakaza'
           return ret
         },
         query: `
