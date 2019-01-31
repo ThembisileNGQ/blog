@@ -56,7 +56,7 @@ export const query = graphql`
       title
       id
       slug
-      metaDescription {
+      meta {
         internal {
           content
         }
