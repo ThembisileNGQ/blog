@@ -1,10 +1,6 @@
-# [IAMMATTHIAS](https://iammatthias.com)
-
-![](https://thumbs.gfycat.com/JovialDopeyErmine-size_restricted.gif)
-
 ## Overview
 
-Codebase for [https://iammatthias.com](https://iammatthias.com) — my photography portfolio. Current iteration is built using Contentful, Netlify, and Gatsby V2; and was launched in September 2018. This site makes heavy use of the [`gatsby-image`](https://next.gatsbyjs.org/packages/gatsby-image/) plugin, pulling optimized fluid assets from Contentful.
+Codebase for [https://lutando.se](https://lutando.se) — my personal portfolio website. Current iteration is built using Contentful, Netlify, and Gatsby V2; and was launched in February 2019. This site makes heavy use of the [`gatsby-image`](https://next.gatsbyjs.org/packages/gatsby-image/) plugin, pulling optimized fluid assets from Contentful.
 
 ### Features
 
