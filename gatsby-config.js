@@ -2,15 +2,14 @@ const config = require('./src/utils/siteConfig')
 let contentfulConfig
 
 try {
-  contentfulConfig = require('.contentful.json')
+  contentfulConfig = require('./.contentful')
 } catch (e) {
   contentfulConfig = {
     production: {
-      spaceId: "s7lwdh97u9ub",
-      accessToken: "54303a3dbcfa8b7e5ac6944f8bf442d532fcd93b5ab5665b629f1d04bf27dbce"
-    }
+      spaceId: process.env.SPACE_ID,
+      accessToken: process.env.ACCESS_TOKEN,
+    },
   }
-
 } finally {
   const { spaceId, accessToken } = contentfulConfig.production
   if (!spaceId || !accessToken) {
@@ -75,10 +74,10 @@ module.exports = {
     },
     {
       resolve: 'gatsby-source-contentful',
-      options: {
-        spaceId: 's7lwdh97u9ub',
-        accessToken: '54303a3dbcfa8b7e5ac6944f8bf442d532fcd93b5ab5665b629f1d04bf27dbce'
-      }
+      options:
+      process.env.NODE_ENV === 'development'
+        ? contentfulConfig.development
+        : contentfulConfig.production,
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
