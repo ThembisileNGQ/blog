@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
 import { Link } from 'gatsby'
-require('../../styles/prism.css')
+require('../../styles/prism-okaidia.css')
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -108,7 +108,7 @@ const Body = styled.div`
   @media (min-width: ${props => props.theme.responsive.medium}) {
     overflow-x: auto;
     width: auto;
-    max-width: 45vw;
+    max-width: 75vw;
   }
 `
 const LinkWrapper = styled.div`

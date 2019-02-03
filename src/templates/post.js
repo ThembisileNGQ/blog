@@ -39,7 +39,6 @@ const PostTemplate = ({ data, location }) => {
         time={body.childMarkdownRemark.timeToRead}
       />
       <Wrapper>
-        <PostHero image={heroImage} />
         <PostArticle
           body={body}
           previous={postIndex.previous}
@@ -56,11 +55,6 @@ export const query = graphql`
       title
       id
       slug
-      meta {
-        internal {
-          content
-        }
-      }
       publishDate(formatString: "DD MMM YYYY")
       publishDateISO: publishDate(formatString: "YYYY-MM-DD")
       tags {
