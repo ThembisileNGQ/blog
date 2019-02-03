@@ -87,7 +87,7 @@ const Body = styled.div`
   blockquote {
     font-style: italic;
     border-left: 4px solid var(--color-secondary);
-    padding: 0 0 0 0.5em;
+    padding: 0 0.5em 0 0.5em;
   }
 
   pre {
@@ -100,7 +100,7 @@ const Body = styled.div`
   }
 `
 
-const ResumeBodyTop = props => {
+const ContactBodyTop = props => {
   return (
     <Wrapper>
       <Body
@@ -112,4 +112,4 @@ const ResumeBodyTop = props => {
   )
 }
 
-export default ResumeBodyTop
+export default ContactBodyTop
