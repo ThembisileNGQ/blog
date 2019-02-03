@@ -41,6 +41,7 @@ class SEO extends Component {
     }
     // Use Hero Image for OpenGraph
     if (postSEO || pageSEO || gallerySEO) {
+      console.log(JSON.stringify(postNode))
       image = 'https:' + postNode.heroImage.ogimg.src
       imgWidth = postNode.heroImage.ogimg.width
       imgHeight = postNode.heroImage.ogimg.height
