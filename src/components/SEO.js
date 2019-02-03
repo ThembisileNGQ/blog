@@ -43,11 +43,13 @@ class SEO extends Component {
     if (postSEO || pageSEO || gallerySEO) {
       if(postNode.heroImage) {
         image = 'https:' + postNode.heroImage.ogimg.src
+        imgWidth = 1000
+        imgHeight = 600
       } else {
         image = 'https://images.ctfassets.net/s7lwdh97u9ub/6AuLgWoD2yLkaHYlt9ewuv/352638229dcdbd0e90a5074c1aec6f78/IMG_0059.jpg?w=1000&q=50' 
+        imgWidth = postNode.heroImage.ogimg.width
+        imgHeight = postNode.heroImage.ogimg.height
       }
-      imgWidth = postNode.heroImage.ogimg.width
-      imgHeight = postNode.heroImage.ogimg.height
     }
 
     // Default Website Schema
