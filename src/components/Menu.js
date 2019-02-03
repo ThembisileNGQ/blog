@@ -121,6 +121,11 @@ const Navigation = () => {
             </li>
             <li>
               <h2>
+                <Link to="/resume">Resume</Link>
+              </h2>
+            </li>
+            <li>
+              <h2>
                 <Link to="/contact">Contact</Link>
               </h2>
             </li>

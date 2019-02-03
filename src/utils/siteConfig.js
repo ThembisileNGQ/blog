@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Lutando Ngqakaza | Coder, Blogger, Music Producer.',
+  siteTitle: 'Lutando Ngqakaza | Coder, Blogger, Music Producer',
   siteTitleAlt: 'IAM', // This allows an alternative site title for SEO schema.
   publisher: 'Lutando Ngqakaza', // Organization name used for SEO schema
   siteDescription:
