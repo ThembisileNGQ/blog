@@ -44,7 +44,7 @@ class SEO extends Component {
       if(postNode.heroImage) {
         image = 'https:' + postNode.heroImage.ogimg.src
       } else {
-        image = 'https://images.ctfassets.net/s7lwdh97u9ub/6AuLgWoD2yLkaHYlt9ewuv/352638229dcdbd0e90a5074c1aec6f78/IMG_0059.jpg?w=1000&q=50' + 
+        image = 'https://images.ctfassets.net/s7lwdh97u9ub/6AuLgWoD2yLkaHYlt9ewuv/352638229dcdbd0e90a5074c1aec6f78/IMG_0059.jpg?w=1000&q=50' 
       }
       imgWidth = postNode.heroImage.ogimg.width
       imgHeight = postNode.heroImage.ogimg.height
