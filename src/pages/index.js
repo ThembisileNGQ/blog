@@ -20,18 +20,6 @@ const Index = ({ data, location }) => {
         <Hero image={home.heroImage} />
         <HomeBody>
           <HomeBodyTop body={home.body} />
-          <HomeBodyBottom>
-            {galleries.map(({ node: gallery }) => (
-              <HomeList
-                key={gallery.id}
-                slug={gallery.slug}
-                image={gallery.heroImage}
-                title={gallery.title}
-                date={gallery.publishDate}
-                excerpt={gallery.body}
-              />
-            ))}
-          </HomeBodyBottom>
         </HomeBody>
       </WrapperGrid>
     </Layout>
