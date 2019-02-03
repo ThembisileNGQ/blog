@@ -41,11 +41,11 @@ class SEO extends Component {
     }
     // Use Hero Image for OpenGraph
     if (postSEO || pageSEO || gallerySEO) {
-      console.log(postSEO)
-      console.log(pageSEO)
-      console.log(gallerySEO)
-      console.log(JSON.stringify(postNode))
-      image = 'https:' + postNode.heroImage.ogimg.src
+      if(postNode.heroImage) {
+        image = 'https:' + postNode.heroImage.ogimg.src
+      } else {
+        image = 'https://images.ctfassets.net/s7lwdh97u9ub/6AuLgWoD2yLkaHYlt9ewuv/352638229dcdbd0e90a5074c1aec6f78/IMG_0059.jpg?w=1000&q=50' + 
+      }
       imgWidth = postNode.heroImage.ogimg.width
       imgHeight = postNode.heroImage.ogimg.height
     }
