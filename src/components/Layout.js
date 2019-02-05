@@ -11,10 +11,10 @@ import { injectGlobal } from 'emotion'
 injectGlobal`
 :root {
 --color-base: #D7DADB ;
---color-secondary: #2C3E50 ;
---color-tertiary: #2C3E50 ;
---color-highlight: #FC4349 ;
---color-accent: #FFFFFF ;
+--color-secondary: #2C3E50;
+--color-tertiary: #2C3E50;
+--color-highlight: #FC4349;
+--color-accent: #FFFFFF;
 }
 @media (prefers-color-scheme: dark) {
 :root {
