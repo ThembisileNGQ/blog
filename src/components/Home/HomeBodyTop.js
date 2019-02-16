@@ -23,6 +23,7 @@ const Body = styled.div`
   p {
     line-height: 1.6;
     margin: 0 0 1em 0;
+    font-size: 1.3rem
   }
 
   a {

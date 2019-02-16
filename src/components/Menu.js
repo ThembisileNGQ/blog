@@ -21,7 +21,7 @@ const Title = styled(Link)`
   display: inline-block;
   h1 {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1.25rem 2rem;
   }
 `
@@ -79,6 +79,7 @@ const MenuMobile = styled(Menu)`
     padding: 0.25rem;
     @media screen and (min-width: ${props => props.theme.responsive.medium}) {
       padding: 1rem;
+      color: var(--color-secondary);
     }
   }
   img {

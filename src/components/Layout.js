@@ -28,17 +28,17 @@ injectGlobal`
 
 body {
   background: var(--color-base);
-  color: var(--color-secondary);
+  color: black;
 }
 h1,h2,h3,h4,h5,h6,a,strong {
   color: var(--color-secondary);
 }
 p {
-  color: var(--color-secondary);
+  color: black;
 }
 a{
   transition: all 0.5s;
-  color: var(--color-secondary);
+  color: black;
   &:hover {
   color: var(--color-highlight);
   }

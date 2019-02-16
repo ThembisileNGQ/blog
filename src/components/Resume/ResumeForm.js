@@ -125,7 +125,7 @@ const Modal = styled.div`
 
 const Button = styled.div`
   background: var(--color-tertiary) !important;
-  font-size: 1em;
+  font-size: 1.2rem;
   display: inline-block;
   margin: 0 auto;
   border: none;

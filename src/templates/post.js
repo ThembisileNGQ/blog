@@ -29,7 +29,7 @@ const PostTemplate = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{`${config.siteTitle} - ${title}`}</title>
+        <title>{`${title} | ${config.siteTitle}`}</title>
       </Helmet>
       <SEO pagePath={slug} postNode={postNode} postSEO />
       <PostHead
@@ -37,7 +37,7 @@ const PostTemplate = ({ data, location }) => {
         date={publishDate}
         tags={tags}
         time={body.childMarkdownRemark.timeToRead}
-      />
+      /> 
       <Wrapper>
         <PostArticle
           body={body}

@@ -20,7 +20,7 @@ const TagTemplate = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{`Tag: ${title} - ${config.siteTitle}`}</title>
+        <title>{`Tag: ${config.siteTitle} | ${title} `}</title>
         <meta
           property="og:title"
           content={`Tag: ${title} - ${config.siteTitle}`}

@@ -1,4 +1,5 @@
 import Typography from 'typography'
+import { black } from 'ansi-colors';
 
 const typography = new Typography({
   title: 'Montserrat + Source Code',
@@ -18,10 +19,18 @@ const typography = new Typography({
       name: 'IBM Plex Mono',
       styles: ['400'],
     },
+    {
+      name: 'Futara',
+      styles: ['400', '900'],
+    },
+    {
+      name: 'Futura',
+      styles: ['400'],
+    },
   ],
-  headerFontFamily: ['Montserrat', 'Helvetica', 'sans-serif'],
-  bodyFontFamily: ['Source Code Pro', 'Helvetica', 'sans-serif'],
-
+  headerFontFamily: ['Futura', 'League Spartan', 'sans-serif'],
+  bodyFontFamily: ['Avenir', 'Nunito Sans', 'Helvetica Neue', 'sans-serif'],
+  
   headerWeight: 900,
   bodyWeight: 400,
   boldWeight: 900,

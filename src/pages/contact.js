@@ -16,7 +16,7 @@ const Contact = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{`${config.siteTitle} - Contact`}</title>
+        <title>{`Contact | ${config.siteTitle}`}</title>
       </Helmet>
       <SEO postNode={info} pagePath="contact" customTitle pageSEO />
       <WrapperGrid>

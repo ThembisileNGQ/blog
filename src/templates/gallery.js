@@ -15,7 +15,7 @@ const GalleryTemplate = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{`${config.siteTitle} - ${gallery.title} `}</title>
+        <title>{`${gallery.title} | ${config.siteTitle}`}</title>
       </Helmet>
       <SEO pagePath={gallery.slug} postNode={galleryNode} gallerySEO />
       <GalleryHead title={gallery.title} tags={gallery.tags} />

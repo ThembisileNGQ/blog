@@ -16,7 +16,7 @@ const Resume = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{`${config.siteTitle} - Resume`}</title>
+        <title>{`Resume | ${config.siteTitle}`}</title>
       </Helmet>
       <SEO postNode={info} pagePath="Resume" customTitle pageSEO />
       <ResumeBody>

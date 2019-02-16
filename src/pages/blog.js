@@ -16,9 +16,9 @@ const Blog = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{`${config.siteTitle} - Blog`}</title>
+        <title>{`Blog | ${config.siteTitle}`}</title>
       </Helmet>
-      <SEO postNode={blog} pagePath="contact" customTitle pageSEO />
+      <SEO postNode={blog} pagePath="blog" customTitle pageSEO />
       <WrapperGrid>
         <Hero image={blog.heroImage} />
         <BlogBody>
