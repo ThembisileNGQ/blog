@@ -43,7 +43,7 @@ svg {
 }
 .bm-overlay, .bm-menu-wrap {
   background: var(--color-base);
-  height: 100vw !important;
+  height: 100vh !important;
 }
 .bm-cross {
   background: var(--color-tertiary);
