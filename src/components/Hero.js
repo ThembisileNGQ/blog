@@ -21,7 +21,7 @@ const Hero = styled.div`
     height: calc(100vh - 5.5rem);
     top: 3.5rem;
     left: 2rem;
-    z-index: -99;
+    z-index: 0;
     div {
       height: 100% !important;
       object-fit: cover !important;

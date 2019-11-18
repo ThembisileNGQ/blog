@@ -105,7 +105,7 @@ const Modal = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  z-index: 99;
+  z-index: 12;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -135,7 +135,7 @@ const Button = styled.div`
   padding: 1em;
   text-decoration: none;
   transition: 0.2s;
-  z-index: 99;
+  z-index: 12;
   &:focus {
     outline: none;
   }

@@ -13,7 +13,7 @@ const Nav = styled.nav`
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 901;
+  z-index: 11;
   transition: 0.5s ease;
 `
 const Title = styled(Link)`
@@ -62,7 +62,7 @@ const Header = styled.header`
 
 const MenuMobile = styled(Menu)`
   padding: 4rem 0;
-  z-index: 902;
+  z-index: 12;
   text-align: left;
   ul {
     display: flex;
@@ -79,7 +79,7 @@ const MenuMobile = styled(Menu)`
     padding: 0.25rem;
     @media screen and (min-width: ${props => props.theme.responsive.medium}) {
       padding: 1rem;
-      color: var(--color-secondary);
+      color: var(--color-secondary) !important;
     }
   }
   img {

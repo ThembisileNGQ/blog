@@ -1,11 +1,18 @@
 const config = require('./src/utils/siteConfig')
 let contentfulConfig
+console.log("OMFGGGG˜gG")
 
 try {
   contentfulConfig = require('./.contentful')
+  console.log("CONTENTFUL STUFF")
+  console.log(JSON.stringify(contentfulConfig))
 } catch (e) {
   contentfulConfig = {
     production: {
+      spaceId: process.env.SPACE_ID,
+      accessToken: process.env.ACCESS_TOKEN,
+    },
+    development: {
       spaceId: process.env.SPACE_ID,
       accessToken: process.env.ACCESS_TOKEN,
     },
@@ -16,6 +23,9 @@ try {
     throw new Error('Contentful space ID and access token need to be provided.')
   }
 }
+
+
+console.log(JSON.stringify(contentfulConfig))
 
 module.exports = {
   siteMetadata: {

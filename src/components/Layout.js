@@ -16,15 +16,6 @@ injectGlobal`
 --color-highlight: #FC4349;
 --color-accent: #FFFFFF;
 }
-@media (prefers-color-scheme: dark) {
-:root {
---color-base: #2C3E50;
---color-secondary: #D7DADB;
---color-tertiary: #F4DAD3;
---color-highlight: #FC4349;
---color-accent: #FCFCFC;
- }
-}
 
 body {
   background: var(--color-base);
@@ -52,6 +43,7 @@ svg {
 }
 .bm-overlay, .bm-menu-wrap {
   background: var(--color-base);
+  height: 100vw !important;
 }
 .bm-cross {
   background: var(--color-tertiary);
