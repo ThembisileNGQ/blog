@@ -43,7 +43,7 @@
     "react-dom": "^16.4.2",
     "react-emotion": "^9.2.10",
     "react-headroom": "^2.2.2",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^5.2.1",
     "react-images": "^0.5.19",
     "react-ionicons": "^2.1.6",
     "react-masonry-css": "^1.0.11",
