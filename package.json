@@ -34,7 +34,7 @@
     "gatsby-source-filesystem": "^2.0.1-rc.2",
     "gatsby-transformer-remark": "^2.1.1-rc.5",
     "history": "^4.7.2",
-    "inquirer": "^6.2.0",
+    "inquirer": "^6.5.2",
     "lodash": "^4.17.13",
     "path": "^0.12.7",
     "prismjs": "^1.15.0",
