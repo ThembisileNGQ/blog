@@ -12052,11 +12052,12 @@ react-masonry-css@^1.0.11:
   resolved "https://registry.yarnpkg.com/react-masonry-css/-/react-masonry-css-1.0.12.tgz#e252a74c0e6d5272f759588232487d707608298a"
   integrity sha512-tDO4dJugSLorlsqZ7WD/yW+OGIWFhUdrSv3VeGYOaFwqwwYwdcXOHh/rsu1PItb/kkmA8iQmpVcweKcZ6RIjmQ==
 
-react-masonry-responsive@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-masonry-responsive/-/react-masonry-responsive-2.1.1.tgz#9a93c6eb275f84e5487737d01666a997a6ccdf84"
-  integrity sha512-Y6iQ4B3OfNQykzIIi28C84/kRoPRHlNK+k40MYEGsr5xn+mSZq7J20wBxcGJIv7KLoCap4YLyefJ2nOa42GwKQ==
+react-masonry-responsive@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-masonry-responsive/-/react-masonry-responsive-2.1.2.tgz#81ce9104568aecb03032e61edcb9ab1a75a85eaf"
+  integrity sha512-4H68V27uIrghfRX5z5jOnGNSPKZAvH4L0vq6uIBKYmiYMJRLaaiAKxWiR5JSf4ZaIQDtP2jq0JV56/vCE4ZN9w==
   dependencies:
+    react-resize-detector "^1.1.0"
     tslib "^1.8.1"
 
 react-motion@^0.5.0:
@@ -12067,6 +12068,13 @@ react-motion@^0.5.0:
     performance-now "^0.2.0"
     prop-types "^15.5.8"
     raf "^3.1.0"
+
+react-resize-detector@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-resize-detector/-/react-resize-detector-1.1.0.tgz#4a9831fa3caad32230478dd0185cbd2aa91a5ebf"
+  integrity sha512-68KVcQlhcWQGXMAie82YueCa4f4yqwEoiQbVyYlSgJEin1zMtNBLLeU/+6FLNf1TTgjwSfpbMTJTw/uU0HNgtQ==
+  dependencies:
+    prop-types "^15.5.10"
 
 react-resize-detector@^3.4.0:
   version "3.4.0"
