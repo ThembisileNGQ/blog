@@ -13,7 +13,7 @@
     "emotion": "^9.2.10",
     "emotion-server": "^9.2.10",
     "emotion-theming": "^9.2.9",
-    "gatsby": "^2.0.0-rc.13",
+    "gatsby": "^2.18.6",
     "gatsby-image": "^2.0.0-rc.4",
     "gatsby-plugin-canonical-urls": "^2.0.0-rc.2",
     "gatsby-plugin-catch-links": "^2.0.2",
