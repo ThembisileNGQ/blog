@@ -51,7 +51,7 @@
     "react-resize-detector": "^3.4.0",
     "react-responsive-masonry": "^2.0.0",
     "react-transition-group": "^2.4.0",
-    "react-typography": "^0.16.13",
+    "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-breakpoint-constants": "^0.15.10",
     "whatwg-fetch": "^2.0.4"
