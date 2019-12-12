@@ -74,7 +74,7 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-gatsby-standard": "^2.1.0",
+    "eslint-config-gatsby-standard": "^2.2.0",
     "prettier": "^1.19.1",
     "stylelint": "9.7.1",
     "stylelint-config-prettier": "^6.0.0",
