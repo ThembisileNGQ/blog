@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-plugin-emotion": "^9.2.10",
     "babel-plugin-styled-components": "^1.5.1",
-    "chalk": "^2.4.1",
+    "chalk": "^3.0.0",
     "compass-vertical-rhythm": "^1.4.5",
     "contentful-import": "^7.6.2",
     "emotion": "^9.2.10",
