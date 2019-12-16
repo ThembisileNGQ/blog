@@ -1,5 +1,3 @@
-// Setup modified from https://github.com/contentful-userland/gatsby-contentful-starter
-
 const spaceImport = require('contentful-import')
 const exportFile = require('../contentful/export.json')
 const inquirer = require('inquirer')
