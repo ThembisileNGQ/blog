@@ -6653,10 +6653,10 @@ gatsby-plugin-netlify@^2.2.1:
     lodash "^4.17.15"
     webpack-assets-manifest "^3.1.1"
 
-gatsby-plugin-nprogress@2.1.21:
-  version "2.1.21"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.1.21.tgz#3e55eecf18feecfea0d45ff870c60f1fe912e55a"
-  integrity sha512-VQbCNS87fdvrPphY/OOG0l5eEqt+Fyv1rcGYGFdzvAcKzusXUNv1u3daEDqhy3DT8DiZ/lBNidQpf2m9CsFqhQ==
+gatsby-plugin-nprogress@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.2.2.tgz#fc54e7c41ee08c3ab7b489d7e9139646307d0ad2"
+  integrity sha512-ldKLqKF8Hzjel6LVzbHvT0PcjHk5JsFmnOrRXUnGZTntcU9/xyFKE1ezr4LlYEK8c1cZ9C76pGBWzrC6F9bbKQ==
   dependencies:
     "@babel/runtime" "^7.8.7"
     nprogress "^0.2.0"
@@ -12014,15 +12014,6 @@ postcss@^6.0.1, postcss@^6.0.23:
     supports-color "^5.4.0"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.5, postcss@^7.0.7:
-  version "7.0.27"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
-  integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
-  dependencies:
-    chalk "^2.4.2"
-    source-map "^0.6.1"
-    supports-color "^6.1.0"
-
-postcss@^7.0.27:
   version "7.0.27"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.27.tgz#cc67cdc6b0daa375105b7c424a85567345fc54d9"
   integrity sha512-WuQETPMcW9Uf1/22HWUWP9lgsIC+KEHg2kozMflKjbeUtw9ujvFX6QmIfozaErDkmLWS9WEnEdEe6Uo9/BNTdQ==
