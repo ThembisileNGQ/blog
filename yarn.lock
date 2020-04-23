@@ -3921,10 +3921,10 @@ contentful-batch-libs@^9.0.1:
     lodash "^4.0.1"
     moment "^2.18.1"
 
-contentful-import@^7.7.9:
-  version "7.7.9"
-  resolved "https://registry.yarnpkg.com/contentful-import/-/contentful-import-7.7.9.tgz#5aeaa00871f4fdf1f9a049a6b83a67da5d8992d9"
-  integrity sha512-2hy0XSJb/RNKNaTsHl8fesHP/5gZ1Op4T1RAK0OkHHbKqxtIv2V7tJmBQHRBKEXCwaqcCuQmdFKSI9x6cEsl5w==
+contentful-import@^7.7.11:
+  version "7.7.11"
+  resolved "https://registry.yarnpkg.com/contentful-import/-/contentful-import-7.7.11.tgz#653a8b7910830ef9607ccef06922ca347897b55e"
+  integrity sha512-ucNBToIxEFZJIs4Hs/l86xXJtvv3b8XFjP3Sgk2gWtOv1UsNaHzK6TgBnrkt/53h4dKJ9F3hKRqLDzJzA9Pqvg==
   dependencies:
     bluebird "^3.5.1"
     cli-table3 "^0.5.1"
@@ -6773,7 +6773,7 @@ gatsby-cli@^2.11.11:
     ink "^2.7.1"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.25, gatsby-core-utils@^1.0.34, gatsby-core-utils@^1.1.1, gatsby-core-utils@^1.1.3:
+gatsby-core-utils@^1.0.25, gatsby-core-utils@^1.0.34, gatsby-core-utils@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.1.3.tgz#1011ae6ae252b809c66fe62fe9da9d419bd29650"
   integrity sha512-PntSiNCFo1/ZKjp00qgLBj2jdwY7M+maV21RXb1k7Ud9Vv9j0dGQsaVb9YXFTqXAf8bG0Xyqsqq4mPU1iNYLDw==
