@@ -16,7 +16,7 @@
     "gatsby": "^2.20.36",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-canonical-urls": "^2.3.4",
-    "gatsby-plugin-catch-links": "^2.2.3",
+    "gatsby-plugin-catch-links": "^2.3.5",
     "gatsby-plugin-emotion": "^2.0.5",
     "gatsby-plugin-feed": "2.3.29",
     "gatsby-plugin-google-analytics": "^2.2.2",
