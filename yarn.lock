@@ -8309,12 +8309,12 @@ gatsby-recipes@^0.1.39:
     ws "^7.3.0"
     xstate "^4.10.0"
 
-gatsby-remark-images-contentful@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images-contentful/-/gatsby-remark-images-contentful-2.2.4.tgz#2614c9e86bf0cae6d1b782e184f99ae56cf88a8f"
-  integrity sha512-tpMFUoX5cYbZ/22vEXMC+zb/N3kx47NqwPaGjINMuGxKlARYB/4hojOBPsXOaypc33Lg2rTfRAlTIV/3VKLu8g==
+gatsby-remark-images-contentful@^2.3.5:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images-contentful/-/gatsby-remark-images-contentful-2.3.5.tgz#959d876f3d54e5c1be1fa2c93a7f05937db4d182"
+  integrity sha512-/a2rACfMvwjQHcGHLeQfBSL4y+f8LWiY7l2+EMOiteKRf3J8YhVmZwXWTpT1Ypk+oqyrHAaGfZRAPy5uCn9LwQ==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.10.2"
     axios "^0.19.2"
     chalk "^2.4.2"
     cheerio "^1.0.0-rc.3"
