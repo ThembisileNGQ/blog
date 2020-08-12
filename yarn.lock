@@ -1089,10 +1089,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2", "@babel/runtime@^7.9.6":
-  version "7.10.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
-  integrity sha512-6sF3uQw2ivImfVIl62RZ7MXhO2tap69WeWK57vAaimT6AZbE4FbqjdEJIN1UqoD6wI6B+1n9UiagafH1sxjOtg==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2", "@babel/runtime@^7.9.6":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -8309,18 +8309,18 @@ gatsby-recipes@^0.1.39:
     ws "^7.3.0"
     xstate "^4.10.0"
 
-gatsby-remark-images-contentful@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images-contentful/-/gatsby-remark-images-contentful-2.2.4.tgz#2614c9e86bf0cae6d1b782e184f99ae56cf88a8f"
-  integrity sha512-tpMFUoX5cYbZ/22vEXMC+zb/N3kx47NqwPaGjINMuGxKlARYB/4hojOBPsXOaypc33Lg2rTfRAlTIV/3VKLu8g==
+gatsby-remark-images-contentful@^2.3.13:
+  version "2.3.13"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images-contentful/-/gatsby-remark-images-contentful-2.3.13.tgz#c3d4693630d51ba315ae2dbdd7ebf3f364fe97b9"
+  integrity sha512-44Ru0SHrcmLw84ebEJhVreFrOeyUoo1ajwJlbCYrsef7/cTUuyQhWYzWv9dBVjXD+XrXpOy16jNBhztYGHRFiw==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.10.3"
     axios "^0.19.2"
     chalk "^2.4.2"
     cheerio "^1.0.0-rc.3"
     is-relative-url "^3.0.0"
     lodash "^4.17.15"
-    semver "^5.7.1"
+    semver "^7.3.2"
     sharp "^0.25.1"
     unist-util-select "^1.5.0"
 
