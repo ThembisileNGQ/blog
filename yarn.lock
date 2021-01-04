@@ -14655,10 +14655,10 @@ react-resize-detector@^3.4.0:
     prop-types "^15.6.2"
     resize-observer-polyfill "^1.5.1"
 
-react-responsive-masonry@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-responsive-masonry/-/react-responsive-masonry-2.0.0.tgz#6a253ec60f519426b4baf54cfffce8e1873ee11c"
-  integrity sha512-w6/25RQw7/rKKTobyMIF8mVxNy87eap3FFbuGNff4eEoYHGqSJ+xwpZSFGH61kMBRxODThhQyitiNmwZzBANjA==
+react-responsive-masonry@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-responsive-masonry/-/react-responsive-masonry-2.1.1.tgz#f3793177d11e4df751122ac9acf88a157c6e0943"
+  integrity sha512-ec39c5Ot/p8tcjOIBn6pORybHD3870hXZ332Xk1dK5Ky+lNAj7S8giRWSDr5PLaCKQvaf+4Xje3hIQH3D0By1Q==
 
 react-scrolllock@^2.0.1:
   version "2.0.7"
