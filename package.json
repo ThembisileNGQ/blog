@@ -33,7 +33,7 @@
     "gatsby-source-contentful": "^2.1.72",
     "gatsby-source-filesystem": "^2.3.11",
     "gatsby-transformer-remark": "^2.8.15",
-    "history": "^4.10.1",
+    "history": "^5.0.0",
     "inquirer": "^6.2.0",
     "lodash": "^4.17.13",
     "path": "^0.12.7",
