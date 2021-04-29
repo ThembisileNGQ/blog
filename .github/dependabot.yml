@@ -1,0 +1,117 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: babel-plugin-emotion
+    versions:
+    - ">= 10.a, < 11"
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - "> 2.0.7, < 2.1"
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - ">= 2.1.a, < 2.2"
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - ">= 2.2.a, < 2.3"
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - "> 3.0.1, < 4"
+  - dependency-name: gatsby-remark-images-contentful
+    versions:
+    - ">= 2.1.a, < 2.2"
+  - dependency-name: gatsby-source-contentful
+    versions:
+    - "> 2.1.72, < 2.2"
+  - dependency-name: inquirer
+    versions:
+    - ">= 7.a, < 8"
+  - dependency-name: react-emotion
+    versions:
+    - ">= 10.a, < 11"
+  - dependency-name: react-images
+    versions:
+    - ">= 1.a, < 2"
+  - dependency-name: react-ionicons
+    versions:
+    - ">= 3.a, < 4"
+  - dependency-name: react-resize-detector
+    versions:
+    - ">= 4.a, < 5"
+  - dependency-name: whatwg-fetch
+    versions:
+    - ">= 3.a, < 4"
+  - dependency-name: contentful-import
+    versions:
+    - 7.9.40
+    - 7.9.41
+    - 7.9.42
+    - 8.0.0
+    - 8.0.1
+    - 8.0.3
+    - 8.0.4
+    - 8.0.5
+    - 8.0.6
+    - 8.1.1
+  - dependency-name: gatsby-image
+    versions:
+    - 2.10.0
+    - 2.11.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: stylelint-config-prettier
+    versions:
+    - 8.0.2
+  - dependency-name: gatsby-remark-images-contentful
+    versions:
+    - 2.10.0
+  - dependency-name: emotion-theming
+    versions:
+    - 11.0.0
+  - dependency-name: gatsby-plugin-google-analytics
+    versions:
+    - 2.11.0
+  - dependency-name: gatsby
+    versions:
+    - 2.32.11
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 2.11.1
+  - dependency-name: gatsby-plugin-offline
+    versions:
+    - 3.10.2
+  - dependency-name: react-headroom
+    versions:
+    - 3.1.0
+  - dependency-name: stylelint
+    versions:
+    - 13.12.0
+  - dependency-name: gatsby-source-contentful
+    versions:
+    - 2.3.49
+  - dependency-name: gatsby-plugin-feed
+    versions:
+    - 2.12.0
+    - 2.13.0
+  - dependency-name: gatsby-remark-prismjs
+    versions:
+    - 3.12.0
+  - dependency-name: gatsby-plugin-netlify
+    versions:
+    - 2.10.0
+  - dependency-name: react-responsive-masonry
+    versions:
+    - 2.1.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
