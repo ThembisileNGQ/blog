@@ -52,7 +52,7 @@
     "react-responsive-masonry": "^2.1.1",
     "react-transition-group": "^4.4.1",
     "react-typography": "^0.16.19",
-    "typography": "^0.16.19",
+    "typography": "^0.16.21",
     "typography-breakpoint-constants": "^0.16.19",
     "whatwg-fetch": "^2.0.4"
   },
